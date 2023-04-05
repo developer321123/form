@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylee.css">
+</head>
+<body>
+    <div class="header"></div>
+    <h1>APPLICATION FORM </h1>
+    <form>
+    <h4>A.General Questions</h4>
+    <label for="Proposed Insured's Name">Proposed Insured's Name <br>(please use capiatal words)</label> 
+    <input
+    type="text"
+    name="Proposed Insured's Name"
+    placeholder="Proposed Insured's Name"
+    id="Proposed Insured's Name"
+    size="35"
+    maxlength="40"/><br>
+    <br><label for="Birth Date">Birth Date:</label>
+    <input type="date"> &nbsp;&nbsp;&nbsp;
+    <label for="gender">Gender</label>
+    <input type="radio"
+    id="male" 
+    name="gender"
+    value="male">
+    <label for="male">Male</label>
+    <input type="radio"
+    id="Female"
+    name="gender"
+    value="Female">
+    <label for="Female">Female</label><br>
+    <br><label for="Address">Address</label>
+    <input type="text"
+    name="Address"
+    placeholder="Address"
+    id="Address"
+    size="100"
+    maxlength="250"/><br>
+    <br><label for="Phone Number">Phone Number:</label>
+    <input type="text"
+    name="Phone Number"
+    placeholder="0312 3456789"
+    id="Phone Number" size="65"
+    maxlength="11"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="Email Address">Email Address:</label>
+    <input type="email"
+    name="Email Address"
+    placeholder="username@gmail.com"
+    id="Email Address"
+    size="50"
+    maxlength="120"/><br>  
+    <br><label for="Id Number">Id Number:</label>
+    <input type="text"
+    name="Id Number"
+    placeholder="00000-0000000-0"
+    id="Id Number"
+    size="65"
+    maxlength="15"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="Social Security Number">Social Security Number:</label>
+    <input type="text"
+    name="Social Security Number"
+    placeholder="Social Security Number"
+    id="Social Security Number"
+    size="50" maxlength="12"/><br> 
+    <br><label>STATUS:</label>
+    <input type="radio"
+    id="single"
+    name="status">
+    <label for="single">SINGLE</label>
+    <input type="radio" id="Married" name="status">
+    <label for="Married">Married</label> 
+    <input type="radio" id="Divorced" name="status">
+    <label for="Divorced">Divorced</label> 
+    <input type="radio" id="Others" name="status">
+    <label for="Others">Others</label><br>
+    <br><label for="Occupation">Occupation:</label>
+    <input type="text"
+    name="Occupation"
+    placeholder="Occupation"
+    id="Occupation"
+    size="65"
+    maxlength="50"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are You Retire?
+    <input type="radio"
+    id="Yes"
+    name="retire">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="retire">
+    <label for="No">No</label> 
+    <br>
+    <br>
+    <h4>B.Type of Health Coverage</h4>
+    <table>
+    <tr>
+    <th> Employee:
+    <input type="radio" id="Yes" name="retire">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="retire">
+    <label for="No">No</label><br>Plan Choice:</th>
+    <th>Spouse <input type="radio" id="Yes" name="retire">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="retire">
+    <label for="No">No</label><br>Plan Choice:</th>
+    <th>Children <input type="radio" id="Yes" name="retire">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="retire">
+    <label for="No">No</label><br>Plan Choice:</th>
+    </tr>
+    </table>
+    <label>Complete if Spouse/Chidren are Proposed for Insurance: </label>
+    <table>
+    <tr>
+    <th>Name</th>
+    <th>SSN NO.</tH>
+    <th>Realtionship<br>to Proposed Insured</th>
+    <th>Birth<br>date</th>
+    <th>Age</th>
+    <th>Sex</th>
+    </tr>
+    <tr>
+    <td></td> 
+    <td></td> 
+    <td></td>    
+    <td></td> 
+    <td></td> 
+    <td></td> 
+    </tr>
+    <tr>
+    <td></td> 
+    <td></td>
+    <td></td>   
+    <td></td> 
+    <td></td>
+    <td></td> 
+    </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td> 
+    <td></td> 
+    </tr>
+    <tr>
+    <td></td>  
+    <td></td> 
+    <td></td>    
+    <td></td>
+    <td ></td>
+    <td></td> 
+    </tr>
+    </table>
+    <h4>C.The Policy</h4>
+    <br><label for="Units">Units:</label>
+    <input type="text"
+    name="Units"
+    placeholder="#Units"
+    id="Units"
+    size="65"
+    maxlength="5"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="Annual Premum">Annual Premum:</label>
+    <input type="text"
+    name="Annual Premum"
+    placeholder="Annual Premum"
+    id="Annual Premum"
+    size="50"
+    maxlength="10"/><br> 
+    <br><label>Payment Mode:</label>lab
+    <input type="radio"
+    id="Annual"
+    name="Payment Mode">
+    <label for="Annual">Annual</label>
+    <input type="radio" id="Semi-Annual" name="Payment Mode">
+    <label for="Semi-Annual">Semi-Annual</label> 
+    <input type="radio"
+    id="Monthly PAT(Complete PAT Card)"
+    name="Payment Mode">
+    <label for="Monthly PAT(Complete PAT Card)">Monthly PAT(Complete PAT Card)</label> <br>
+    <br><label for=" Cash With Application $">Cash With Application:$ &nbsp</label>
+    <input type="text"
+    name="Cash With Application $"
+    placeholder="Cash With Application $"
+    id="Cash With Application $"
+    size="80"
+    maxlength="5"/><br> 
+    <br><label for="Planned Modal Premium $">Planned Modal Premium:$ &nbsp</label>
+    <input type="text"
+    name="Planned Modal Premium $"
+    placeholder="Planned Modal Premium $"
+    id="Planned Modal Premium $"
+    size="60"
+    maxlength="5"/><br>
+    <p><b>Terms & Conditions</b><br>Improvement should be measured regularly and assessed in<br>order for you to know what is benificial and what is not. This will<br>help you set new targets. </p>
+    <label for="signature">Signature</label><br>
+    <textarea  name="signature" id="signature" cols="30"></textarea><br>
+    <label for="Date">Date:</label><br>
+    <input type="text" name="Date" placeholder="11/11/2011" id="Date" size="30" maxlength="15">
+</form>
+</body>
+</html>
